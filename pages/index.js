@@ -35,7 +35,7 @@ IndexPage.getInitialProps = ({/* store, */ pathname, query}) => {
     custom: 'custom', // pass some custom props to component
     pathname,
     query
-  }
+  } 
 };
 
 export default withRedux(IndexPage)
